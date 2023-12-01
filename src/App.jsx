@@ -6,11 +6,10 @@ import { Navbar } from './components/Navbar'
 import { Homepage } from './components/Homepage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Homepage/>
     </div>
   )

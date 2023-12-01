@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 export const Navbar = () => {
   return (
-    <div className='border-b-2 border-slate-100'>     
+    <div className='border-b-2 border-slate-100 fixed w-full bg-white'>     
         <div className='flex max-w-[1080px] justify-between mx-auto p-6'>
             <div>
                 <img src="./logo.svg" alt="" height="" width={150}/>
